@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://example.com/images/cover1.jpg",
+    "title": "Exploring the Future of AI",
+    "author": "Jane Doe",
+    "author_image": "https://example.com/images/jane_doe.jpg",
+    "posted_date": "2024-12-10",
+    "reading_time": "5 min read",
+    "hashtags": ["#AI", "#Technology", "#Future"]
+  },
+  {
+    "id": 2,
+    "cover": "https://example.com/images/cover2.jpg",
+    "title": "The Art of Minimalism",
+    "author": "John Smith",
+    "author_image": "https://example.com/images/john_smith.jpg",
+    "posted_date": "2024-12-09",
+    "reading_time": "3 min read",
+    "hashtags": ["#Minimalism", "#Lifestyle", "#Wellness"]
+  },
+  {
+    "id": 3,
+    "cover": "https://example.com/images/cover3.jpg",
+    "title": "Top 10 Travel Destinations for 2025",
+    "author": "Emily Green",
+    "author_image": "https://example.com/images/emily_green.jpg",
+    "posted_date": "2024-12-08",
+    "reading_time": "7 min read",
+    "hashtags": ["#Travel", "#Adventure", "#Top10"]
+  },
+  {
+    "id": 4,
+    "cover": "https://example.com/images/cover4.jpg",
+    "title": "Mastering the Art of Cooking",
+    "author": "Chef Alex",
+    "author_image": "https://example.com/images/chef_alex.jpg",
+    "posted_date": "2024-12-07",
+    "reading_time": "4 min read",
+    "hashtags": ["#Cooking", "#Food", "#Recipes"]
+  },
+  {
+    "id": 5,
+    "cover": "https://example.com/images/cover5.jpg",
+    "title": "The Secrets of Financial Freedom",
+    "author": "Robert Brown",
+    "author_image": "https://example.com/images/robert_brown.jpg",
+    "posted_date": "2024-12-06",
+    "reading_time": "6 min read",
+    "hashtags": ["#Finance", "#Money", "#Freedom"]
+  }
+]
