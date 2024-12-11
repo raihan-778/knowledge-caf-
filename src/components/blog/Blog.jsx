@@ -1,27 +1,18 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import PropTypes from "prop-types";
 
+const Blog = ({blog}) => {
 
-
-const Blog = () => {
-    const [blogs,setBlogs]=useState([])
-    console.log(blogs.length)
-
-    useEffect( ()=>{
-        
-            fetch("/blog.json")
-        .then(response=>response.json())
-        .then(data=>setBlogs(data)) 
-        .catch(err=>console.err(err))
-    },[])
-
-   
-
+    
+    console.log( "Property form single blog",blog)
     return (
         <div>
-            <h1>This is Blog Component</h1>
+            
         </div>
     );
 };
+
+Blog.propTypes={
+    blog:PropTypes.object.isRequired
+}
 
 export default Blog;
