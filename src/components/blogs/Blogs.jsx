@@ -20,7 +20,8 @@ const Blogs = () => {
     return (
         <div className="w-2/3">
             {blogs.map(blog=>{<Blog kye={blog.id} blog={blog}></Blog>})}
-            <h1>This is Blog Component</h1>
+            
+           <h1>Blogs</h1>
         </div>
     );
 };
