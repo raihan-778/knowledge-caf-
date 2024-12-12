@@ -4,49 +4,49 @@
     "cover": "https://i.ibb.co.com/XCHqr72/1.jpg",
     "title": "Exploring the Future of AI",
     "author": "Jane Doe",
-    "author_image": "https://i.ibb.co.com/rHry5QR/boy1.png",
+    "author_img": "https://i.ibb.co.com/rHry5QR/boy1.png",
     "posted_date": "2024-12-10",
-    "reading_time": "5 min read",
-    "hashtags": ["#AI", "#Technology", "#Future"]
+    "reading_time": 5,
+    "hashtags": ["#AI", "#Machine_Learning", "#Deep_Learning"]
   },
   {
     "id": 2,
     "cover": "https://i.ibb.co.com/cyHPM22/2.png",
     "title": "The Art of Minimalism",
     "author": "John Smith",
-    "author_image": "https://i.ibb.co.com/ByxPf9D/boy2.jpg",
+    "author_img": "https://i.ibb.co.com/ByxPf9D/boy2.jpg",
     "posted_date": "2024-12-09",
-    "reading_time": "3 min read",
-    "hashtags": ["#Minimalism", "#Lifestyle", "#Wellness"]
+    "reading_time": 3,
+    "hashtags": ["#Coding", "#Software_Development", "#Clean_Code"]
   },
   {
     "id": 3,
     "cover": "https://i.ibb.co.com/kXtVt0V/3.png",
     "title": "Top 10 Travel Destinations for 2025",
     "author": "Emily Green",
-    "author_image": "https://i.ibb.co.com/kKV0YsZ/girl1.jpg",
+    "author_img": "https://i.ibb.co.com/kKV0YsZ/girl1.jpg",
     "posted_date": "2024-12-08",
-    "reading_time": "7 min read",
-    "hashtags": ["#Travel", "#Adventure", "#Top10"]
+    "reading_time": 7,
+    "hashtags": ["#Web_Development", "#Frontend", "#Backend"]
   },
   {
     "id": 4,
     "cover": "https://i.ibb.co.com/r5tRPdm/4.jpg",
     "title": "Mastering the Art of Cooking",
     "author": "Chef Alex",
-    "author_image": "https://i.ibb.co.com/JxyrZ3s/girl2.jpg",
+    "author_img": "https://i.ibb.co.com/JxyrZ3s/girl2.jpg",
     "posted_date": "2024-12-07",
-    "reading_time": "4 min read",
-    "hashtags": ["#Cooking", "#Food", "#Recipes"]
+    "reading_time": 4,
+    "hashtags": ["#DevOps", "#Cloud_Computing", "#Automation"]
   },
   {
     "id": 5,
     "cover": "https://example.com/images/cover5.jpg",
     "title": "The Secrets of Financial Freedom",
     "author": "Robert Brown",
-    "author_image": "https://example.com/images/robert_brown.jpg",
+    "author_img": "https://example.com/images/robert_brown.jpg",
     "posted_date": "2024-12-06",
-    "reading_time": "6 min read",
-    "hashtags": ["#Finance", "#Money", "#Freedom"]
+    "reading_time": 6,
+    "hashtags": ["#Blockchain", "#Cryptocurrency", "#FinTech"]
   }
 ]
