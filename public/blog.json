@@ -2,51 +2,57 @@
   {
     "id": 1,
     "cover": "https://i.ibb.co.com/XCHqr72/1.jpg",
-    "title": "Exploring the Future of AI",
+    "title": "Exploring the Future of MERN Stack Development",
     "author": "Jane Doe",
     "author_img": "https://i.ibb.co.com/rHry5QR/boy1.png",
     "posted_date": "2024-12-10",
     "reading_time": 5,
-    "hashtags": ["#AI", "#Machine_Learning", "#Deep_Learning"]
+    "hashtags": ["#MERN", "#MongoDB", "#ExpressJS", "#ReactJS", "#NodeJS"]
   },
   {
     "id": 2,
     "cover": "https://i.ibb.co.com/cyHPM22/2.png",
-    "title": "The Art of Minimalism",
+    "title": "The Art of Full Stack Development with MERN",
     "author": "John Smith",
     "author_img": "https://i.ibb.co.com/ByxPf9D/boy2.jpg",
     "posted_date": "2024-12-09",
     "reading_time": 3,
-    "hashtags": ["#Coding", "#Software_Development", "#Clean_Code"]
+    "hashtags": ["#MERN", "#WebDevelopment", "#JavaScript", "#FullStack"]
   },
   {
     "id": 3,
     "cover": "https://i.ibb.co.com/kXtVt0V/3.png",
-    "title": "Top 10 Travel Destinations for 2025",
+    "title": "Top 10 Best Practices for MERN Stack Development",
     "author": "Emily Green",
     "author_img": "https://i.ibb.co.com/kKV0YsZ/girl1.jpg",
     "posted_date": "2024-12-08",
     "reading_time": 7,
-    "hashtags": ["#Web_Development", "#Frontend", "#Backend"]
+    "hashtags": ["#MERN", "#NodeJS", "#ExpressJS", "#ReactJS", "#MongoDB"]
   },
   {
     "id": 4,
     "cover": "https://i.ibb.co.com/r5tRPdm/4.jpg",
-    "title": "Mastering the Art of Cooking",
+    "title": "Optimizing MERN Stack Applications for Scalability",
     "author": "Chef Alex",
     "author_img": "https://i.ibb.co.com/JxyrZ3s/girl2.jpg",
     "posted_date": "2024-12-07",
     "reading_time": 4,
-    "hashtags": ["#DevOps", "#Cloud_Computing", "#Automation"]
+    "hashtags": [
+      "#MERN",
+      "#WebDevelopment",
+      "#NodeJS",
+      "#Scalability",
+      "#Performance"
+    ]
   },
   {
     "id": 5,
     "cover": "https://example.com/images/cover5.jpg",
-    "title": "The Secrets of Financial Freedom",
+    "title": "Building Real-Time Apps with MERN Stack",
     "author": "Robert Brown",
     "author_img": "https://example.com/images/robert_brown.jpg",
     "posted_date": "2024-12-06",
     "reading_time": 6,
-    "hashtags": ["#Blockchain", "#Cryptocurrency", "#FinTech"]
+    "hashtags": ["#MERN", "#RealTimeApps", "#NodeJS", "#ReactJS", "#WebSockets"]
   }
 ]
