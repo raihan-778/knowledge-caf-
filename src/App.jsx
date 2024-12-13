@@ -19,10 +19,17 @@ function App() {
 
   
 
-  const handleMarkAsRead=time=>{
-    const newReadingTime=Number(readingTime)+time
-    setReadingTime(newReadingTime)
+  const handleMarkAsRead=(id,time)=>{
+    const newReadingTime=time+Number(readingTime)
    
+    setReadingTime(newReadingTime)
+
+
+    // remove bookmarks 
+    const remainingBookmarks=bookmarks.filter(bookmark=>bookmark.id!==id)
+console.log("removing bookmarks",id)
+    setBookmarks(remainingBookmarks)
+
   }
 
   return (

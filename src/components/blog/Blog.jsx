@@ -3,7 +3,7 @@ import { BsBookmarks } from "react-icons/bs";
 
 const Blog = ({blog,handleAddBookmarks,handleMarkAsRead}) => {
 
-    const {title,cover,author_img,reading_time,author,posted_date,hashtags}=blog
+    const {id,title,cover,author_img,reading_time,author,posted_date,hashtags}=blog
 
     
     console.log( "Property form single blog",blog)
@@ -32,7 +32,7 @@ const Blog = ({blog,handleAddBookmarks,handleMarkAsRead}) => {
         <p>
             {hashtags.map((hash,idx)=><span key ={idx}><a href="">#{hash}</a></span>)}
         </p>
-        <button onClick={()=>handleMarkAsRead(reading_time)} className="text-purple-800 font-bold underline">Mark As Read</button>
+        <button onClick={()=>handleMarkAsRead(id,reading_time)} className="text-purple-800 font-bold underline">Mark As Read</button>
         </div>
         
     );
