@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 import { BsBookmarks } from "react-icons/bs";
 
-const Blog = ({blog,handleAddBookmarks}) => {
+const Blog = ({blog,handleAddBookmarks,handleMarkAsRead}) => {
 
     const {title,cover,author_img,reading_time,author,posted_date,hashtags}=blog
 
     
     console.log( "Property form single blog",blog)
     return (
-    <div>
-            <img className="w-full mb-8" src={cover} alt={`Cover picture of the title ${title}`} />
+    <div className="mb-8 space-y-4">
+            <img className="w-full" src={cover} alt={`Cover picture of the title ${title}`} />
         
         <div className="flex justify-between mb-6">
         <div className="flex">
@@ -32,6 +32,7 @@ const Blog = ({blog,handleAddBookmarks}) => {
         <p>
             {hashtags.map((hash,idx)=><span key ={idx}><a href="">#{hash}</a></span>)}
         </p>
+        <button onClick={()=>handleMarkAsRead(reading_time)} className="text-purple-800 font-bold underline">Mark As Read</button>
         </div>
         
     );
@@ -39,7 +40,8 @@ const Blog = ({blog,handleAddBookmarks}) => {
 
 Blog.propTypes={
     blog:PropTypes.object.isRequired,
-    handleAddBookmarks:PropTypes.func.isRequired
+    handleAddBookmarks:PropTypes.func.isRequired,
+    handleMarkAsRead:PropTypes.func.isRequired
 }
 
 export default Blog;
